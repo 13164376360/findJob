@@ -166,7 +166,7 @@ def merge_excel(date):
 
 
 if __name__ == "__main__":
-    cookie = '_uab_collina=158138884277552994676298; lastCity=101010100; sid=sem_pz_bdpc_dasou_title; __zp_seo_uuid__=39d9deac-d0b0-475c-915a-a09d369e5869; __c=1581382946; __g=-; __l=l=https%253A%252F%252Fwww.zhipin.com%252Fbeijing%252F%253Fsid%253Dsem_pz_bdpc_dasou_title&r=https%3A%2F%2Fwww.zhipin.com%2Fbeijing%2F%3Fsid%3Dsem_pz_bdpc_dasou_title&friend_source=0&friend_source=0; Hm_lvt_194df3105ad7148dcf2b98a91b5e727a=1581333627,1581334942,1581382949,1581388841; Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a=1581388841; __a=16861044.1581388836..1581382946.3.1.3.3; __zp_stoken__=96e92soKXIjFTith5N6PPFAmsqpoZSr3%2FHSjVOkuscSCyPWc54TaRQadyiIRAjohlFSras%2BKyXee1kVvBSxFXY3FHv%2F%2BmOAzJa6Eo4Px0Il2dmPxWoV6hNTRn9GwrWBxvTa1'
+    cookie = '_uab_collina=158138884277552994676298; lastCity=101010100; __c=1581472775; __g=-; __l=l=https%3A%2F%2Fwww.zhipin.com%2Fweb%2Fcommon%2Fsecurity-check.html%3Fseed%3DUhW9Lf%252BkCChrWPg%252FSqIuTybxjQ%252B9s33IqTVrE%252BVtqEs%253D%26name%3Deb1c0b1e%26ts%3D1581472771150%26callbackUrl%3D%252Fjob_detail%252F%253Fquery%253Dhrbp%2526city%253D101010100%2526industry%253D%2526position%253D%26srcReferer%3D&r=&friend_source=0&friend_source=0; Hm_lvt_194df3105ad7148dcf2b98a91b5e727a=1581390943,1581391502,1581417868,1581472777; __a=16861044.1581388836.1581417867.1581472775.20.3.8.10; __zp_stoken__=ff57uAOoO2oYSklcgvBgzRRgM0IDmEqtnSqMTNYxywq9%2B5hifTN1N6Zv%2BXeMB2hs88onaY%2FXMJX46R%2F5LxRk%2F8V4K6tiDS5v7tcICGKDqXUKAHBpR89eAjSv9f8OVDrXjexJ; Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a=1581473080',
     url = 'https://www.zhipin.com/c100010000/'
     job = 'hrbp'
     path = ''

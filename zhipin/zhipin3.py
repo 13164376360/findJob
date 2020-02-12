@@ -18,20 +18,17 @@ with open(csv_name, 'a', newline='', encoding='utf-8') as fp:
 
 HEADERS = {
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
-    'referer': '这个很简单吧',
-    'cookie': '填写可用的cookies'
+    'referer': 'https://www.zhipin.com/c100010000/?query=hrbp&ka=sel-city-100010000',
+    'cookie' : '_uab_collina=158133362979252410346994; lastCity=101010100; __c=1581476493; __g=-; Hm_lvt_194df3105ad7148dcf2b98a91b5e727a=1581391502,1581417868,1581472777,1581476493; __l=l=https%3A%2F%2Fwww.zhipin.com%2Fbeijing%2F&r=&friend_source=0&friend_source=0; __a=16861044.1581388836.1581472775.1581476493.25.4.4.15; Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a=1581476531; __zp_stoken__=ff57uAOoO2oYSklcgvBgzRRgMycO5dtYszxbWJoT%2Brf7ApaUyky6G2q%2Bmj%2B4oFtXmAeTaY%2FXMJX46R%2F5LxRk%2F8V4K87%2FC%2BQHQM1o6Kn%2F8U%2F%2BWsRpR89eAjSv9f8OVDrXjexJ'
 }
 
 # 先用固定的url获取总页数
 # 1、构建固定的参数
-params = {
-    'query': position_type,
-    'page': 1,
-    'ka': 'page-1'
-}
+
 Base_url = 'https://www.zhipin.com/c100010000/?query=hrbp&page='
-url = Base_url + urlencode(params)
-print(url)
+for i in range(10):
+    url = Base_url+str(i+1)
+    print(url)
 
 # 2、发送请求骗取页数
 resp = requests.get(url, headers=HEADERS)
